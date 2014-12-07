@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Geolocalisation</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="nom">Nom </string>
+    <string name="prenom">Prénom </string>
+    <string name="login">Login </string>
+    <string name="password">Mot de passe </string>
+    <string name="inscrire">S\'inscrire </string>
+    <string name="inscription">Inscription </string>
+    <string name="connexion">Connexion </string>
+    <string name="loginconnexion">Login </string>
+    <string name="passwdconnexion">Mot de passe </string>
+    <string name="connecter">Se connecter </string>
+    <string name="creer">Creer point</string>
+    <string name="lister">Lister point </string>
+    <string name="rechercher">Rechercher point </string>
+    <string name="consulter">Consulter point </string>
+    <string name="hintnom">Nom</string>
+    <string name="hintprenom">prenom</string>
+    <string name="hintlogin">login</string>
+    <string name="hintpassword">mot de passe</string>
+    <string name="champvide">Champs Vide</string>
+    <string name="pasinscrit">Pas Inscrit</string>
+    <string name="existedeja">Cet utilisateur existe déja</string>
+    <string name="authentifier">Authenfication en cour...</string>
+    <string name="ins">Inscription en cours ...</string>
+    <string name="echec">Echec de connexion ...</string>
+    <string name="patientez">Patientez un instant.... </string>
+    <string name="creationpoint">Creation d\'un point </string>
+    <string name="description">Description </string>
+    <string name="creerpoint">Creer </string>
+    <string name="retour">Retour </string>
+    <string name="nompoint">Nom  </string>
+    <string name="inscrit">Inscritpion reussie!!!!! </string>
+    <string name="authentification"> Authenfication reussie!!!! </string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="title_activity_creer">CreerActivity</string>
+    <string name="title_activity_lister">ListerActivity</string>
+    <string name="title_activity_rechercher">RechercherActivity</string>
+    <string name="title_activity_consulter">ConsulterActivity</string>
+
+</resources>

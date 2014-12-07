@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Geolocalization</string>
+    <string name="action_settings">Settings</string>
+    <string name="nom">Surname</string>
+    <string name="prenom">First-name</string>
+    <string name="login">login </string>
+    <string name="passwd">Password </string>
+    <string name="inscrire">Sign up </string>
+    <string name="inscription">Registration </string>
+    <string name="connexion">Connection </string>
+    <string name="loginconnexion">Login </string>
+    <string name="passwdconnexion">password </string>
+    <string name="connecter">log in</string>
+    <string name="creer">Create point</string>
+    <string name="lister">List point </string>
+    <string name="rechercher">Research point </string>
+    <string name="consulter">Consult point </string>
+    <string name="hintnom">surname</string>
+    <string name="hintprenom">first-name</string>
+    <string name="hintlogin">login</string>
+    <string name="hintpassword">password</string>
+    <string name="champvide">Empty field</string>
+    <string name="pasinscrit">Not registered</string>
+    <string name="existedeja">This user already exist</string>
+    <string name="authentifier">Logging in...</string>
+    <string name="ins">Ongoing registration ...</string>
+    <string name="echec">Connection failure ...</string> 
+    <string name="patientez">Wait a moment </string>
+    <string name="creationpoint">Creation of a point </string>
+    <string name="description">Description </string>
+    <string name="creerpoint">Create </string>
+    <string name="retour">Back </string>
+    <string name="nompoint">Name  </string>
+    <string name="inscrit">Inscription succeed !!!  </string>
+    <string name="authentification"> authentication succeed!!!! </string>
+    <string name="title_activity_menu">MenuActivity</string>
+
+</resources>

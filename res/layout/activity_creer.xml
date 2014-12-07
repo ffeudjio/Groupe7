@@ -1,0 +1,111 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fond"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="be.condorcet.geolocalisation.AuthentificationActivity" >
+
+   <TextView
+            android:id="@+id/lbcreationpoint"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/creationpoint"
+            android:layout_gravity="center" />
+    
+	<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="@dimen/espacelinear">
+        <TextView
+            android:id="@+id/lbnom"
+            android:textSize="@dimen/taille_etiquette"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nompoint"
+            android:width="@dimen/largeur_etiquette" />
+
+        <EditText
+            android:id="@+id/ednom"
+            android:layout_width="wrap_content"
+            android:background="@drawable/border"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/nompoint"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp" >
+        </EditText>
+    </LinearLayout>    
+    
+	<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="@dimen/espacelinear">
+        <TextView
+            android:id="@+id/lbdescription"
+            android:textSize="@dimen/taille_etiquette"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/description"
+            android:width="@dimen/largeur_etiquette" />
+
+        <EditText
+            android:id="@+id/eddescription"
+            android:background="@drawable/border"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/description"
+            android:ems="10"
+            android:inputType="textPersonName" 
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp">
+        </EditText>
+    </LinearLayout>
+
+	<Spinner
+	    android:id="@+id/spin"
+	    android:background="@drawable/border"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" 
+	    android:layout_marginTop="@dimen/espacelinear"/>
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" 
+	    android:layout_marginTop="@dimen/espacelinear">
+
+	    <Button
+	        android:id="@+id/btcreerpoint"
+	        android:layout_width="wrap_content"
+	        android:layout_height="@dimen/taille_bouton"
+	        android:layout_gravity="left"
+	        android:gravity="left"
+	        android:text="@string/creerpoint"
+	        android:onClick="gestionPoint"
+	        android:textSize="@dimen/text_bouton" />
+
+	    <Button
+	        android:id="@+id/btretour"
+	        android:layout_width="wrap_content"
+	        android:layout_height="@dimen/taille_bouton"
+	        android:layout_gravity="right"
+	        android:layout_marginLeft="150dp"
+	        android:onClick="gestionRetour"
+	        android:gravity="center"
+	        android:text="@string/retour"
+	        android:textSize="@dimen/text_bouton" />
+	</LinearLayout>
+
+</LinearLayout>
