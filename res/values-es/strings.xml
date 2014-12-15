@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Geolocalización</string>
+    <string name="action_settings">Settings</string>
+    <string name="nom">Apellido </string>
+    <string name="nompoint">Nombre</string>
+    <string name="prenom">Nombre de pila </string>
+    <string name="login">Iniciar sesión </string>
+    <string name="passwd">Contraseña </string>
+    <string name="inscrire">Inscribirse </string>
+    <string name="inscription">Registro </string>
+    <string name="connexion">Conexión </string>
+    <string name="loginconnexion">Iniciar sesión </string>
+    <string name="passwdconnexion">Contraseña </string>
+    <string name="connecter">Iniciar la sesión </string>
+    <string name="creer">Crear punto </string>
+    <string name="lister">Listar punto</string>
+    <string name="rechercher">Buscar punto </string>
+    <string name="consulter">Consultar punto </string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="hintnom">Apellido </string>
+    <string name="hintprenom">Nombre de pila </string>
+    <string name="hintlogin">Iniciar sesión </string>
+    <string name="hintpassword">Contraseña </string>
+    <string name="champvide">Campo vacío </string>
+    <string name="pasinscrit">no registrado </string>
+    <string name="existedeja">Este existe ya usuario </string>
+    <string name="authentifier"> Autenticación en curso  &#8230; </string>
+    <string name="ins">Inscripción en curso &#8230;</string>
+    <string name="echec">Error de conexión  &#8230; </string>
+    <string name="patientez">Espere un momento </string>
+    <string name="title_activity_creer">CreerActivity</string>
+    <string name="creationpoint">Creación de un punto</string>
+    <string name="description">descripción</string>
+    <string name="creerpoint">Crear</string>
+    <string name="retour">Retour</string>
+    <string name="title_activity_lister">ListerActivity</string>
+    <string name="title_activity_rechercher">RechercherActivity</string>
+    <string name="title_activity_consulter">ConsulterActivity</string>
+    <string name="latitude">latitud</string>
+    <string name="longitude">longitud</string>
+    <string name="pascreer">Punto no creó</string>
+    <string name="ptexistedeja">Este punto ya existe</string>
+    <string name="creerpt">Punto creó</string>
+    <string name="activation">Activado</string>
+    <string name="categorie">categoría</string>
+    <string name="inscrit">Inscripción exitoso</string>
+    <string name="ptcreer">Punto creó</string>
+    <string name="msgcreation">creación en curso  &#8230;</string>
+    <string name="authentification">Autenticación exitoso</string>
+
+</resources>
